@@ -4,15 +4,15 @@ import { getDatabase, ref, set, get, update, remove, child } from 'firebase/data
 // Firebase configuration
 // IMPORTANT: Replace these with your Firebase project credentials
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDmzi6abkCHKeO4QaR8F7ubsFRP6_gADyA",
+  authDomain: "nexora-d94b9.firebaseapp.com",
+  databaseURL: "https://nexora-d94b9-default-rtdb.firebaseio.com",
+  projectId: "nexora-d94b9",
+  storageBucket: "nexora-d94b9.firebasestorage.app",
+  messagingSenderId: "42233556793",
+  appId: "1:42233556793:web:81d338172a683b42b6c2e8",
+  measurementId: "G-3VBCWE94L4"
 };
-
 // Initialize Firebase
 let app;
 let database;
